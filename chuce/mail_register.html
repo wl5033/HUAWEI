@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mail_egister.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./js/mail_register.js"></script>
+</head>
+
+<body>
+    <div class="all">
+
+        <!-- 头部 start -->
+        <div class="header">
+            <div class="header-ctr">
+                <img src="./images/juhualogo.jpg" alt="">
+                <b class="gang">|</b>
+                <b>华为商城</b>
+            </div>
+        </div>
+        <!-- 头部 end -->
+
+        <!-- 颈部 start -->
+        <div class="state">
+            <div class="retive">
+
+            </div>
+            <div class="phone">
+                <span class="tab-phone">
+                    <a href="register.html">
+                        <i class="iconfont">&#xe63d;</i>
+                        手机号
+                    </a>
+                </span>
+
+                <span class="tab-mail">
+                    <a href="#"><i class="iconfont">&#xec2f;
+                        </i>
+                        电子邮箱
+                    </a>
+                </span>
+                <div class="tab-login">已有华为账号<a href="#">登录></a></div>
+            </div>
+
+            <!-- 颈部 end -->
+
+            <!-- 身体 start -->
+            <div class="state-ctr">
+                <div class="kernel">
+                    <!-- 国家start -->
+                    <form name="shyform" onsubmit="return false" id="shyform">
+                        <div>
+                            <div class="kernel-left">国家/地区</div>
+
+                            <div class="kernel-right">
+                                <div class="kernel-content">
+                                    <span>
+                                        <select name="" class="kernel-kernel">
+                                            <option value="">中国</option>
+                                            <option value="">美国</option>
+                                            <option value="">中国台湾</option>
+                                        </select>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 国家end -->
+
+                        <!-- 手机号start -->
+                        <div class="lerror">
+                            <div class="emily_add">
+                                邮箱地址
+                            </div>
+                            <div class="emily_add-right">
+                                <input type="text" placeholder="请输入邮箱地址" id="cell_yx" maxlength="17" name="cell_yx">
+                            </div>
+
+                        </div>
+                        <div id="hint"></div>
+                        <!-- 手机号end -->
+
+                        <!-- 邮箱验证start -->
+
+                        <div class="verifyqw">
+                            <input type="text" placeholder="点击按钮进行验证">
+                        </div>
+                        <div class="verifyqw-ty">
+                            邮箱验证码
+                        </div>
+                        <div class="verifyqw-ctn">
+                            <input type="text" placeholder="请输入邮箱验证码">
+                            <button class="verifyqw-btn">获取验证码</button>
+                        </div>
+
+                        <!-- 邮箱验证end -->
+
+                        <!-- 密码验证start -->
+                        <div class="mima" style="margin-top:30px">
+                            <div class="password">
+                                密码
+                            </div>
+                            <div class="password-ctn">
+                                <input type="password" placeholder="请输入密码" id="userpwd_ctn" maxlength="17" name="userpwd_ctn">
+
+                                <div class="reminder">
+                                    密码满足以下要求：
+                                    <p class="not_spa1"><i class="iconfont">&#xe60f;</i>不能包含空格</p>
+                                    <p class="not_spa2"><i class="iconfont">&#xe60f;</i>至少包含8个字符</p>
+                                    <p class="not_spa3"><i class="iconfont">&#xe60f;</i>至少包含字母、数字、符号中的两种</p>
+                                    <div class="symbol">密码强度：<span id="qiang"></span></div>
+                                    <img src="./images/daosanjiao.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="userpwd"></div>
+                        <!-- 密码验证end -->
+
+                        <!-- 确认密码start -->
+                        <div class="queren">
+                            <div class="repassword">
+                                确认密码
+                            </div>
+                            <div class="repassword-ctn">
+                                <input type="password" placeholder="请再次输入密码" id="info_password" maxlength="17">
+                            </div>
+                        </div>
+                        <div id="inro_password"></div>
+                        <!-- 确认密码end -->
+
+                        <!-- 地区号码start -->
+                        <div class="telephone">
+                            <div class="mobile">
+                                <select name="" id="">
+                                    <option value="">+86(中国)</option>
+                                    <option value="">+84(越南)</option>
+                                    <option value="">+56(智利)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mobile-left">
+                                <input type="text" placeholder="请输入手机号" id="cell_phone" maxlength="17" name="cell_phone">
+                            </div>
+                        </div>
+                        <div id="bint_in"></div>
+
+                            <div class="security">
+                                短信验证码
+                            </div>
+                            <div class="security-ctn">
+                                <input type="text" placeholder="请输入短信验证码">
+                                <button class="security-btn">获取验证码</button>
+                            </div>
+                            <!-- 地区号码end -->
+
+                            <!-- 生日start -->
+                            <div class="birthday">
+                                出生日期
+                            </div>
+                            <div class="birthday-ctn">
+                                <!-- <input type="text"> -->
+                                <select id="year" name="year">
+                                    <option value="0">年</option>
+                                </select>
+                                <select id="month" name="month">
+                                    <option value="0">月</option>
+                                </select>
+                                <select id="day" name="day">
+                                    <option value="0">日</option>
+                                </select>
+                            </div>
+                            <span id="birthday_true"></span>
+                            <!-- 生日end -->
+
+                            <button class="register">注册</button>
+                    </form>
+                </div>
+            </div>
+            <!-- 身体 end -->
+
+            <!-- 底部start -->
+            <div class="space">
+
+            </div>
+            <div class="boxdow">
+                <p class="privacy">
+                    <a href="#">华为帐号用户协议</a>
+                    <a href="#">关于华为帐号与隐私的声明</a>
+                    <a href="#">常见问题</a>
+                </p>
+                <p class="footer">Copyright © 2011-2019 华为软件技术有限公司 版权所有 保留一切权利 苏B2-20070200号 |
+                    苏ICP备09062682号-9</p>
+
+            </div>
+            <!-- 底部end -->
+
+        </div>
+
+
+    </div>
+    <div class="zhanwei"></div>
+</body>
+
+</html>
+<script>
+
+
+
+</script>

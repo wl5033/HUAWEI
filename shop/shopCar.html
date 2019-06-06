@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>华为商城--购物车</title>
+    <style>
+    body{color: #f5f5f5}
+    </style>
+    <link rel="shortcut icon" href="https://www.vmall.com/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shopCar.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/havecar.css">
+    <link rel="stylesheet" href="./css/addCar.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/reset1.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/shopCar.js"></script>
+    <!-- <script src="./js/haveCar.js"> </script> -->
+    <!-- <script src="./js/addCar.js"></script> -->
+</head>
+<body>
+    <!-- 遮罩层 -->
+    <div id="zhezhao">
+        
+    </div>
+    <!-- 登录界面 -->
+    <div id="logining">
+       <div class="log-hd">
+        <span class="iconfont colse">&#xe60f;</span>
+       </div>
+       <div class="log-bd">
+            <span class="cklog">账号登录</span><span class="cklog">扫码登录</span>
+       </div> 
+       <div class="username log-bd">
+        <p  class="info"><div><i class="iconfont">&#xe602;</i></div></p>
+        <p class="fom">
+            <input type="text" placeholder="手机号/邮件地址/华为号" >
+        </p>
+        <p class="fom">
+            <input type="passwrod" placeholder="密码">
+        </p>
+        <span class="duanxin"><i class="iconfont">&#xe672;</i>短信验证码登录</span>
+        <button class="btn-3">登录</button><br>
+        <span class="iconfont" id="jzmm">&#xe604;</span> <label for="jzmm" title="..." class="lab">记住华为账号</label> 
+        <span class="more-1">更多</span>
+        <div class="forget">
+            <span class="sp1"><a href="">注册账号</a></span>
+            <span><a href="">忘记密码?</a></span>
+        </div>
+        <span class="iconfont qq">&#xe612;</span>
+        <span class="iconfont zfb">&#xe666;</span>
+        <span class="iconfont wx">&#xe607;</span>
+       </div>
+       <div class="erweima">
+
+       </div>
+       <div class="logfoot">
+            继续访问即代表您已同意<a href="">华为商城服务协议</a>和<a href="">华为隐私政策</a>
+       </div>
+    </div>
+    <!-- 头部 -->
+    <div class="main">
+        <div class="header">
+            <ul>
+                <li><a href="" class="f1">首页</a></li>
+                <li><a href="">华为官网</a></li>
+                <li><a href="">荣耀官网</a></li>
+                <li><a href="">花粉俱乐部</a></li>
+                <li><a href="">V码(优购码)</a></li>
+                <li><a href="">企业购</a></li>
+                <li><a href="">Select Region</a></li>
+                <li id="more"><a href="">更多精彩<span class="iconfont">&#xe668;</span></a></li>
+            </ul>
+            <ol>
+                <li><a href="">请注册</a> </li>
+                <li><a href="">登录</a></li>
+                <li><a href="">我的订单</a></li>
+                <li id="kehu"><a href="">客户服务<span class="iconfont">&#xe668;</span></a></a></li>
+                <li id="wz"><a href="">网址导航<span class="iconfont">&#xe668;</span></a></a></li>
+                <li id="phone"><a href="" class="f2">手机版<span class="iconfont">&#xe668;</span></a></a></li>
+            </ol>
+            <div class="nav-1">
+                <a href="">EMUI</a>
+                <a href="">应用市场</a>
+                <a href="">华为终端云空间</a>
+                <a href="">开发者联盟</a>
+            </div>
+            <div class="nav-2">
+                <a href="">服务中心</a>
+                <a href="">联系客服</a>
+            </div>
+            <div class="nav-3">
+                <div>
+                    <a href=""><img src="./images/hwsc.jpg" alt=""></a>
+                    <span>
+                        <h2>华为商城</h2>
+                        <p>新人专享好礼</p>
+                        <p>最高获5000积分</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="./images/gzh.jpg" alt="">
+                    <span>
+                        <h2>华为商城公众号</h2>
+                        <p>微信扫一扫</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="./images/wxxcx.jpg" alt="">
+                    <span>
+                        <h2>微信小程序</h2>
+                        <p>微信扫一扫</p>
+                    </span >
+                </div>
+            </div>
+
+            <div class="nav-4">
+                <div class="host">
+                    <a href=""><span class="iconfont">&#xe83a;</span></a>
+                    <p><a href="" id="zhu">商城主页</a></p>
+                </div>
+                <ul>
+                    <h2>频道</h2>
+                    <li>
+                        <a href="">华为专区</a>
+                        <a href="">荣耀专区</a>
+                    </li>
+                    <li>
+                        <a href="">企业购</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>产品</h2>
+                    <li>
+                        <a href="">手机</a>
+                        <a href="">智能家居</a>
+                    </li>
+                    <li>
+                        <a href="">平板&笔记本</a>
+                        <a href="">通用配件</a>
+                    </li>
+                    <li>
+                        <a href="">智能穿戴</a>
+                        <a href="">专属配件</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>增值服务</h2>
+                    <li>
+                        <a href="">以旧换新</a>
+                        <a href="">礼品包装</a>
+                    </li>
+                    <li>
+                        <a href="">补购保障</a>
+                        <a href="">99元换电池</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>会员</h2>
+                    <li><a href="">会员频道 </a></li>
+                </ul>
+            </div>
+        </div>
+
+       <!-- </div> -->
+    </div>
+    <!-- logo -->
+    <div class="logo">
+        <div class="main">
+            <a href=""><img src="./images/logo.png" alt=""></a>
+            <h2>我的购物车</h2>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div class="login main">
+        <i ><span class="iconfont">&#xe625;</span>您还没有登录！登录后可查看之前加入的商品</i>
+        <button class="btn">登录</button>
+    </div>
+    <!-- 没有商品的购物车 -->
+    <div class="shopCar main" >
+        <div class="car">
+            <img src="./images/car_03.png" alt="">
+            <p>您的购物车里什么也没有哦~</p>
+            <button class="btn22">去逛逛</button>
+        </div>
+
+        <div class="hot">
+            <p>热销推荐</p>
+            <div class="box">
+                <span class="iconfont left">&#xe601;</span>
+                <span class="iconfont right">&#xe600;</span>
+                    <div class="ubox">
+                        <ul id="hotul">
+                            
+                            <li >
+                                <a href="">
+                                    <img src="./images/hot/hot01.png" alt="">
+                                    <p>HUAWEI nova 4</p>
+                                </a>
+                                <span>￥2499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot02.png" alt="">
+                                        <p>荣耀V20</p>
+                                    </a>
+                                    <span>￥2699</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot03.png" alt="">
+                                        <p>HUAWEI Mate 20</p>
+                                    </a>
+                                    <span>￥3499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot04.png" alt="">
+                                        <p>荣耀10 AI摄影手机    </p>
+                                    </a>
+                                    <span>￥1799</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot05.png" alt="">
+                                        <p>HUAWEI Mate 20X</p>
+                                    </a>
+                                    <span>￥4499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot06.png" alt="">
+                                        <p>荣耀8X</p>
+                                    </a>
+                                    <span>￥1299</span>
+                            </li>
+                            
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- 有商品的购物车 -->
+    <div class="haveCar main">
+        <div class="sp">
+            <div class="checkedAll">
+                <p><input type="checkbox" class="cka" id="ckall"><label for="ckall" class="label" id="lab1"></label><span>全选</span></p>
+                <ul>
+                    <li>商品</li>   
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pay">
+            <div class="tool">
+                <input type="checkbox" class="cka" id="ckall2"><label for="ckall2" class="label" id="lab9"></label><span>全选</span>
+            </div>
+            <div class="btnpay">
+                立即结算
+            </div>
+            <div class="toal-price">
+                <p style="margin-top: 10px;text-align:center">
+                    <label for="" class="zonji">总计</label>
+                    <span class="zonjia">￥0.00</span>
+                   
+                </p>
+                <p>
+                    <i class="yixuanze">已选择 <em class="shuliang">0</em> 件商品优惠： <span class="youhui">￥0.00</span></i>
+                </p>
+            </div>
+        </div>
+       
+        <div class="dapei">
+            <p>搭配推荐</p>
+            <span class="left-sp iconfont">&#xe601;</span>
+            <span class="right-sp iconfont">&#xe620;</span>
+            <div class="box-sp">
+                <ul id="uldp">
+                    <li>
+                        <a href="">
+                                <img src="./images/dapei/dp0.png" alt="">
+                                <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                        </a>
+                        <span>￥79</span>
+                        <p class="addp">加入购物车</p>
+                    </li>
+                    <li>
+                            <a href="">
+                                    <img src="./images/dapei/dp0.png" alt="">
+                                    <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                            </a>
+                            <span>￥79</span>
+                            <p class="addp">加入购物车</p>
+                        </li>
+                        <li>
+                                <a href="">
+                                        <img src="./images/dapei/dp0.png" alt="">
+                                        <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                                </a>
+                                <span>￥79</span>
+                                <p class="addp">加入购物车</p>
+                            </li>
+                            <li>
+                                    <a href="">
+                                            <img src="./images/dapei/dp0.png" alt="">
+                                            <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                                    </a>
+                                    <span>￥79</span>
+                                    <p class="addp">加入购物车</p>
+                                </li>
+                                <li>
+                                        <a href="">
+                                                <img src="./images/dapei/dp0.png" alt="">
+                                                <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                                        </a>
+                                        <span>￥79</span>
+                                        <p class="addp">加入购物车</p>
+                                    </li>
+                                    <li>
+                                            <a href="">
+                                                    <img src="./images/dapei/dp0.png" alt="">
+                                                    <p> HUAWEI nova 4 3D打印壳（魔幻境地）</p>
+                                            </a>
+                                            <span>￥79</span>
+                                            <p class="addp">加入购物车</p>
+                                        </li>
+                                        
+                                            
+                                               
+                                                    
+                    
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 底部 -->
+    <div class="container">
+            <!-- 品质 start -->
+            <div class="slogan">
+                <ul>
+                    <li class="">
+                        <a href="#"><i class="iconfont">&#xe739;</i>百强企业&nbsp;品质保证</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="iconfont">&#xe7ea;</i>七天退货&nbsp;15天换货</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="iconfont">&#xe635;</i>48元起免运费</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="iconfont">&#xe873;</i>1000家维修网点全国联保</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 品质 end -->
+    
+            <!--服务 start  -->
+            <div class="service">
+                <div class="service-left">
+                    <dl>
+                        <dt>
+                            购物相关
+                        </dt>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            保修与退换货
+                        </dt>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            维修与技术支持
+                        </dt>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            购物相关
+                        </dt>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            购物相关
+                        </dt>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购物相关</a>
+                        </dd>
+                    </dl>
+                    <dl class="blogroll">
+                        <dt>
+                            友情链接
+                            <span class="btn1 ntb1">&lt;</span>
+                            <span class="btn2 ntb2">&gt;</span>
+                        </dt>
+    
+                        <div class="Android">
+                            <div class="ali">
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关速度11</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物倒是相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关浮动22</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购速度物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购撒大大物相关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物但是相关33</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物速度相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关速度44</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物倒是相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关浮动55</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购速度物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购撒大大物相关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物但是相关66</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物速度相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关速度77</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物倒是相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关浮动88</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购速度物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购撒大大物相关</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <a href="#">购物相关浮动99</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购速度物相关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购物相速度关</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">购撒大大物相关</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </dl>
+                </div>
+    
+                <!-- 分割线 -->
+                <div class="service-right">
+                    <p class="title">400-088-6888</p>
+                    <p class="hint">7x24小时客服热线（仅收市话费）</p>
+                    <br>
+                    <a href="#" class="customer ">
+                        <i class="iconfont">&#xe688;&nbsp;在线客服</i>
+                    </a>
+                    <br>
+                    <p class="attention">关注Vmall:&nbsp;
+                        <a href="#" class="iconfont weixin">&#xe600;</a>
+                        &nbsp;<a href="#" class="iconfont">&#xe6b9;</a>
+                        &nbsp;<a href="#" class="iconfont">&#xe84c;</a>
+                        &nbsp;<a href="#" class="iconfont">&#xe61f;</a>
+                    </p>
+                    <div class="daweixin">
+                        <img src="./images/shop.jpg" alt="" class="qrcode">
+                        <img src="./images/jianjiao.jpg" alt="" class="yuanjiao">
+                    </div>
+                </div>
+            </div>
+            <!-- 服务 end -->
+    
+            <!-- 底部 start -->
+            <div class="footer">
+                <a href="#" class="footer-left"><img src="images/xlogo.png" alt=""></a>
+                <div class="footer-conter">
+                    <ul>
+                        <li><a href="#">华为集团</a></li>
+                        <li><a href="#">华为CBG官网</a></li>
+                        <li><a href="#">华为集团</a></li>
+                        <li><a href="#">华为的集团</a></li>
+                        <li><a href="#">华为应用市场</a></li>
+                        <li><a href="#">华为集团</a></li>
+                        <li><a href="#">华为终端云空间</a></li>
+                        <li><a href="#">华为终空间</a></li>
+                        <li><a href="#">华为商城手机版</a></li>
+                        <li><a href="#" class="a">华为集团</a></li>
+                        <br>
+                    </ul>
+                    <a href="#">隐私声明</a>
+                    <a href="#">服务协议</a>
+                    <a href="#">COOKIES</a>
+                    <span>Copyright&copy;2012-2019 华为终端有限公司 版权所有</span>
+                    <a href="#" class="b">粤ICP备19015064号-4</a>
+                    <a href="#">粤公网安备 44190002003939号</a>
+                    <span>备案主体编号：44201919072182</span>
+                </div>
+                <a href="#"><img src="./images/tr.jpg" alt=""></a>
+                <a href="#"><img src="./images/license.jpg" alt="" style="width: 70px"></a>
+    
+            </div>
+            <!-- 底部 end -->
+        </div>
+</body>
+</html>
+<script>
+        $(function () {
+            //do to ...
+    
+            // 二维码
+            $(".daweixin").hover(function () {
+                $(".qrcode").css('display', 'block');
+    
+            }, function () {
+                $(".qrcode").css('display', 'none');
+            });
+    
+            $(".daweixin").hover(function () {
+                $(".yuanjiao").css('display', 'block');
+            }, function () {
+                $(".yuanjiao").css('display', 'none');
+            });
+    
+    
+            // 点击切换
+            var index = 0;
+            $(".btn1").css({ 'color': '#ccc', 'cursor': 'not-allowed' });
+    
+            $(".btn2").click(function () {
+                if (index >= 7) {
+                    index = 8;
+                    $(".btn2").css({ 'color': '#ccc', 'cursor': 'not-allowed' });
+                    console.log(index);
+                } else {
+                    index++;
+                    $(".btn1").css({ 'color': '#000', 'cursor': 'pointer' });
+                }
+                $(".ali").animate({ "left": `${-220 * index}px` }, 500);
+            });
+    
+            $(".btn1").click(function () {
+                if (index <= 1) {
+                    index = 0;
+                    $(".btn1").css({ 'color': '#ccc', 'cursor': 'not-allowed' });
+                } else {
+                    console.log(index)
+                    $(".btn2").css({ 'color': '#000', 'cursor': 'pointer' });
+                    index--;
+                }
+                $('.ali').animate({ "left": `${-220 * index}px` }, 500);
+            });
+        });
+    </script>

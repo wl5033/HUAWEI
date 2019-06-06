@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{color: #f5f5f5}
+    </style>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shopCar.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/havecar.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/shopCar.js"></script>
+</head>
+<body>
+    <!-- 遮罩层 -->
+    <div id="zhezhao">
+        
+    </div>
+    <!-- 登录界面 -->
+    <div id="logining">
+       <div class="log-hd">
+        <span class="iconfont colse">&#xe60f;</span>
+       </div>
+       <div class="log-bd">
+            <span class="cklog">账号登录</span><span class="cklog">扫码登录</span>
+       </div> 
+       <div class="username log-bd">
+        <p  class="info"><div><i class="iconfont">&#xe602;</i></div></p>
+        <p class="fom">
+            <input type="text" placeholder="手机号/邮件地址/华为号" >
+        </p>
+        <p class="fom">
+            <input type="passwrod" placeholder="密码">
+        </p>
+        <span class="duanxin"><i class="iconfont">&#xe672;</i>短信验证码登录</span>
+        <button class="btn-3">登录</button><br>
+        <span class="iconfont" id="jzmm">&#xe604;</span> <label for="jzmm" title="..." class="lab">记住华为账号</label> 
+        <span class="more-1">更多</span>
+        <div class="forget">
+            <span class="sp1"><a href="">注册账号</a></span>
+            <span><a href="">忘记密码?</a></span>
+        </div>
+        <span class="iconfont qq">&#xe612;</span>
+        <span class="iconfont zfb">&#xe666;</span>
+        <span class="iconfont wx">&#xe607;</span>
+       </div>
+       <div class="erweima">
+
+       </div>
+       <div class="logfoot">
+            继续访问即代表您已同意<a href="">华为商城服务协议</a>和<a href="">华为隐私政策</a>
+       </div>
+    </div>
+    <!-- 头部 -->
+    <div class="main">
+        <div class="header">
+            <ul>
+                <li><a href="" class="f1">首页</a></li>
+                <li><a href="">华为官网</a></li>
+                <li><a href="">荣耀官网</a></li>
+                <li><a href="">花粉俱乐部</a></li>
+                <li><a href="">V码(优购码)</a></li>
+                <li><a href="">企业购</a></li>
+                <li><a href="">Select Region</a></li>
+                <li id="more"><a href="">更多精彩<span class="iconfont">&#xe668;</span></a></li>
+            </ul>
+            <ol>
+                <li><a href="">请注册</a> </li>
+                <li><a href="">登录</a></li>
+                <li><a href="">我的订单</a></li>
+                <li id="kehu"><a href="">客户服务<span class="iconfont">&#xe668;</span></a></a></li>
+                <li id="wz"><a href="">网址导航<span class="iconfont">&#xe668;</span></a></a></li>
+                <li id="phone"><a href="" class="f2">手机版<span class="iconfont">&#xe668;</span></a></a></li>
+            </ol>
+            <div class="nav-1">
+                <a href="">EMUI</a>
+                <a href="">应用市场</a>
+                <a href="">华为终端云空间</a>
+                <a href="">开发者联盟</a>
+            </div>
+            <div class="nav-2">
+                <a href="">服务中心</a>
+                <a href="">联系客服</a>
+            </div>
+            <div class="nav-3">
+                <div>
+                    <a href=""><img src="./images/hwsc.jpg" alt=""></a>
+                    <span>
+                        <h2>华为商城</h2>
+                        <p>新人专享好礼</p>
+                        <p>最高获5000积分</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="./images/gzh.jpg" alt="">
+                    <span>
+                        <h2>华为商城公众号</h2>
+                        <p>微信扫一扫</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="./images/wxxcx.jpg" alt="">
+                    <span>
+                        <h2>微信小程序</h2>
+                        <p>微信扫一扫</p>
+                    </span >
+                </div>
+            </div>
+
+            <div class="nav-4">
+                <div class="host">
+                    <a href=""><span class="iconfont">&#xe83a;</span></a>
+                    <p><a href="" id="zhu">商城主页</a></p>
+                </div>
+                <ul>
+                    <h2>频道</h2>
+                    <li>
+                        <a href="">华为专区</a>
+                        <a href="">荣耀专区</a>
+                    </li>
+                    <li>
+                        <a href="">企业购</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>产品</h2>
+                    <li>
+                        <a href="">手机</a>
+                        <a href="">智能家居</a>
+                    </li>
+                    <li>
+                        <a href="">平板&笔记本</a>
+                        <a href="">通用配件</a>
+                    </li>
+                    <li>
+                        <a href="">智能穿戴</a>
+                        <a href="">专属配件</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>增值服务</h2>
+                    <li>
+                        <a href="">以旧换新</a>
+                        <a href="">礼品包装</a>
+                    </li>
+                    <li>
+                        <a href="">补购保障</a>
+                        <a href="">99元换电池</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>会员</h2>
+                    <li><a href="">会员频道 </a></li>
+                </ul>
+            </div>
+        </div>
+
+       <!-- </div> -->
+    </div>
+    <!-- logo -->
+    <div class="logo">
+        <div class="main">
+            <a href=""><img src="./images/logo.png" alt=""></a>
+            <h2>我的购物车</h2>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div class="login main">
+        <i ><span class="iconfont">&#xe625;</span>您还没有登录！登录后可查看之前加入的商品</i>
+        <button class="btn">登录</button>
+    </div>
+    <!-- 没有商品的购物车 -->
+    <div class="shopCar main" style="display: none">
+        <div class="car">
+            <img src="./images/car_03.png" alt="">
+            <p>您的购物车里什么也没有哦~</p>
+            <button class="btn2">去逛逛</button>
+        </div>
+
+        <div class="hot">
+            <p>热销推荐</p>
+            <div class="box">
+                <span class="iconfont left">&#xe601;</span>
+                <span class="iconfont right">&#xe600;</span>
+                    <div class="ubox">
+                        <ul id="hotul">
+                            
+                            <li >
+                                <a href="">
+                                    <img src="./images/hot/hot01.png" alt="">
+                                    <p>HUAWEI nova 4</p>
+                                </a>
+                                <span>￥2499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot02.png" alt="">
+                                        <p>荣耀V20</p>
+                                    </a>
+                                    <span>￥2699</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot03.png" alt="">
+                                        <p>HUAWEI Mate 20</p>
+                                    </a>
+                                    <span>￥3499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot04.png" alt="">
+                                        <p>荣耀10 AI摄影手机    </p>
+                                    </a>
+                                    <span>￥1799</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot05.png" alt="">
+                                        <p>HUAWEI Mate 20X</p>
+                                    </a>
+                                    <span>￥4499</span>
+                            </li>
+                            <li>
+                                    <a href="">
+                                        <img src="./images/hot/hot06.png" alt="">
+                                        <p>荣耀8X</p>
+                                    </a>
+                                    <span>￥1299</span>
+                            </li>
+                            
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- 有商品的购物车 -->
+    <div class="haveCar main">
+        <div class="sp">
+            <div class="checkedAll">
+                <p><span class="iconfont" id="ckall">&#xe604;</span><label for="">全选</label></p>
+                <ul>
+                    <li>商品</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <div class="sp-main">
+
+            </div>
+            <div class="pay">
+
+            </div>
+        </div>
+        <div class="jjgo">
+
+        </div>
+    </div>
+</body>
+</html>

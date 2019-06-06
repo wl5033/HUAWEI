@@ -1,0 +1,15 @@
+
+let json = [
+    {"content":"荣耀V20 麒麟980 魅眼全视屏 4800万AI超清摄影 全网通6GB+128GB 标配版 幻夜黑","money":"2699","myh":"600","id":"11","url":"./images/sp/v20.png",'num':1},
+    {"content":"荣耀8X 千元屏霸 高屏占比 2000万AI双摄 全网通 4GB+64GB（魅海蓝）","money":"1199","myh":"200","id":"12","url":"./images/sp/8x.png",'num':1},
+    {"content":"HUAWEI nova 4 4800万超广角三摄 自拍极点全面屏 高配 8GB+128GB 全网通版（贝母白）","money":"2499","myh":"300","id":"13","url":"./images/sp/nova4.png",'num':1},
+    {"content":"荣耀10 GT游戏加速 AIS手持夜景 AI摄影手机 6GB+64GB 幻影紫 全网通 双卡双待 荣耀10GT","money":"1799","myh":"600","id":"14","url":"./images/sp/honor10.png",'num':1},
+    {"content":"HUAWEI nova 4e 3200万立体美颜 AI超广角三摄 4GB+128GB 全网通版（幻夜黑）","money":"1799","myh":"300","id":"15","url":"./images/sp/nova4e.png",'num':1},
+    {"content":"荣耀Magic2 魔法全视屏 麒麟980AI芯片 屏内指纹 超广角AI三摄 全网通 6GB+128GB 渐变黑","money":"2699","myh":"300","id":"16","url":"./images/sp/magic2.png",'num':1},
+    {"content":"荣耀FlyPods Pro无线耳机 高配版（铃兰白）","money":"899","myh":"100","id":"17","url":"./images/sp/flypods.png",'num':1},
+    {"content":"荣耀FlyPods青春版 真无线耳机（铃兰白）","money":"349","myh":"50","id":"18","url":"./images/sp/flyposqc.png",'num':1},
+    {"content":"荣耀经典耳机 USB Type-c版（白色）","money":"79","myh":"20","id":"19","url":"./images/sp/typec.png",'num':1},
+    {"content":"荣耀车载充电器（supercharge 快充版）（含Type C数据线）","money":"129","myh":"30","id":"20","url":"./images/sp/chezai.png",'num':1},
+    {"content":"荣耀存储（白色）","money":"649","myh":"50","id":"21","url":"./images/sp/chucun.png",'num':1},
+    {"content":"荣耀MINI照片打印机","money":"599","myh":"100","id":"22","url":"./images/sp/minidy.png",'num':1}
+]

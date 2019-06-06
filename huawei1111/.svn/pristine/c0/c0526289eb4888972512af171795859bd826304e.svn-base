@@ -1,0 +1,11 @@
+body,html,a,b,ul,ol,dl,span,img,h1,h2,h3,h4,h5,h6,p,i,em,strong，input,td
+{
+	margin:0;padding:0;
+}
+ul li,ol li{list-style: none;}
+a:hover{text-decoration: none;}
+body{font-size: 12px;line-height: 20px;}
+.clearfix::after{overflow: hidden;height: 0;visibility: hidden;display: block;font-size: 0;content: ".";}
+.fr{float: right;}
+.fl{float:left;}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;}

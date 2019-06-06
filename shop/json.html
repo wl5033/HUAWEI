@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        
+  //实现选中
+  $('.all').click(function () {
+        if (!$(this).hasClass('checked')) {
+            $('.checkbox').addClass('checked');
+            $('.ts1').text(car.getTotalNumber());
+            $('.ts2').text("￥" + car.getTotalPrice().toFixed(2));
+
+        }
+        else {
+            $('.checkbox').removeClass('checked');
+            $('.ts1').text('0');
+            $('.ts2').text("￥0.00");
+        }
+    });
+
+    function select(ele) {
+        //获取tr
+        var tr = ele.parentNode.parentNode.parentNode;
+        var tds = tr.children;
+        var num = tds[4].children[0].children[1].innerText;
+        var price = tds[3].innerText;
+
+        var one = $('.one');
+        var flag = true;
+        if (!$(ele).hasClass('checked')) {
+            $(ele).addClass('checked');
+            var ts1 = parseInt($('.ts1').text()) + num;
+            var ts2 = parseFloat($('.ts2')[0].innerText.split("￥")[1]) + num * price;
+            $('.ts1').text(ts1);
+            $('.ts2').text("￥" + ts2.toFixed(2));
+        }
+        else {
+            $(ele).removeClass('checked');
+            var ts1 = parseInt($('.ts1').text()) - num;
+            var ts2 = parseFloat($('.ts2')[0].innerText.split("￥")[1]) - num * price;
+            $('.ts1').text(ts1);
+            $('.ts2').text("￥" + ts2);
+        }
+        for (var i = 0; i < one.length; i++) {
+            if (one[i].getAttribute('class').split(' ').length == 2) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            $('.all').addClass('checked');
+            $('.ts1').text(car.getTotalNumber());
+            $('.ts2').text("￥" + car.getTotalPrice().toFixed(2));
+
+        }
+        else {
+            $('.all').removeClass('checked');
+        }
+    }
+                
+    </script>
+    
+</body>
+</html>

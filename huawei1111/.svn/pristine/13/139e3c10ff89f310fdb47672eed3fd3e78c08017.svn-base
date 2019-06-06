@@ -1,0 +1,799 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>华为商城（VMALL.COM）_华为手机、荣耀手机、官网正品保障</title>
+    <meta name="description" content="华为商城是华为旗下面向全国服务的电子商务平台官网，我们提供正品华为手机(华为P30系列、华为Mate20系列、荣耀20、荣耀V20、荣耀Magic2、荣耀Note10、华为nova系列等)、平板电脑、配件等全新华为产品，品质保证！" />  
+    <meta name="keywords" content="华为商城,华为官网,华为手机官网,华为平板电脑,华为笔记本" />
+    <meta name="mobile-agent" content="format=xhtml;url=http://m.vmall.com/">
+    <meta property="wb:webmaster" content="f62bd8cc2f7d9778" />
+    <link rel="shortcut icon" href="https://www.vmall.com/favicon.ico" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/min.css">
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="naver-main">
+        <div class="naver-layout">
+            <div class="category">
+                <ol class="category-list">
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <div class="category-title">
+                                        <a href="https://www.vmall.com/list-36" target="_blank">
+                                            <span>手机</span>
+                                        </a>
+                                    </div>
+                                    <a href="https://www.vmall.com/list-75" target="_blank">
+                                        <span>荣耀</span>
+                                    </a>
+                                    <a href="https://www.vmall.com/list-285" target="_blank">HUAWEI P系列</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-3">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/ronyao.png" alt="">
+                                        <span>荣耀</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/HUAWEIp.png" alt="">
+                                        <span>HUAWEI P系列</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/HUAWEImate.png" alt="">
+                                        <span>HUAWEI MATE系列</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/honorchangwan.png" alt="">
+                                        <span>荣耀畅玩系列</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/nova.png" alt="">
+                                        <span>HUAWEI nova系列</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/HUAWEIchangwang.png" alt="">
+                                        <span>华为畅享系列</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/maimang.png" alt="">
+                                        <span>HUAWEI 麦芒系列</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/yidong.png" alt="">
+                                        <span>移动4G+专区</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-btn">
+                                    <a href="" target="_blank">查看全部</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <h1><a href="https://www.vmall.com/list-40" target="_blank">笔记本&平板</a></h1>
+                                    <a href="https://www.vmall.com/list-41" target="_blank">平板电脑</a>
+                                    <a href="https://www.vmall.com/list-42" target="_blank">笔记本电脑</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-1">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/pionbandiannao.png" alt="">
+                                        <span>平板电脑</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/bijibendiannao.png" alt="">
+                                        <span>笔记本电脑</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/bijibenpeijian.png" alt="">
+                                        <span>笔记本配件</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-btn">
+                                        <a href="" target="_blank">查看全部</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <h1><a href="https://www.vmall.com/list-36" target="_blank">智能穿戴</a></h1>
+                                    <a href="" target="_blank">手环</a>
+                                    <a href="" target="_blank">手表</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-1">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/shouhuan.png" alt="">
+                                        <span>手环</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/shoubiao.png" alt="">
+                                        <span>手表</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/VR.png" alt="">
+                                        <span>VR</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-btn">
+                                        <a href="" target="_blank">查看全部</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <h1><a href="https://www.vmall.com/list-36" target="_blank">智能家居</a></h1>
+                                    <a href="" target="_blank">路由器</a>
+                                    <a href="" target="_blank">电视盒子</a>
+                                    <a href="" target="_blank">照明</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-4">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/luyouqi.png" alt="">
+                                        <span>路由器</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/dianshihezhi.png" alt="">
+                                        <span>电视盒子</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/zaoming.png" alt="">
+                                        <span>照明</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/qingjie.png" alt="">
+                                        <span>清洁</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/zimuluyou.png" alt="">
+                                        <span>字母分布式路由</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/dianlimao.png" alt="">
+                                        <span>电力猫wifi放大器</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/shuixingwifi.png" alt="">
+                                        <span>随行wifi</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/jieneng.png" alt="">
+                                        <span>节能</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/huanjing.png" alt="">
+                                        <span>环境</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/anfang.png" alt="">
+                                        <span>安防</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/jiankang.png" alt="">
+                                        <span>健康</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/chudian.png" alt="">
+                                        <span>厨电</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/yingying.png" alt="">
+                                        <span>影音</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/weiyu.png" alt="">
+                                        <span>卫浴</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/qita.png" alt="">
+                                        <span>其他</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-btn">
+                                    <a href="" target="_blank">查看全部</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <h1><a href="https://www.vmall.com/list-36" target="_blank">热销配件</a></h1>
+                                    <a href="" target="_blank">保护壳</a>
+                                    <a href="" target="_blank">移动电源</a>
+                                    <a href="" target="_blank">耳机</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-4">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/baohuke.png" alt="">
+                                        <span>保护壳</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/yidongdianhyuan.jpg" alt="">
+                                        <span>移动电源</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/erji.png" alt="">
+                                        <span>耳机</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/baohutao.png" alt="">
+                                        <span>保护套</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/tiemo.png" alt="">
+                                        <span>贴膜</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/yinxiang.png" alt="">
+                                        <span>音箱</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/zipaigan.png" alt="">
+                                        <span>自拍杆/支架</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/congdianqi.png" alt="">
+                                        <span>充电器/线材</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/upan.png" alt="">
+                                        <span>U盘/存储卡</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/sexiangji.png" alt="">
+                                        <span>摄像机/镜头</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/zinengyinjian.png" alt="">
+                                        <span>智能硬件</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/biaodai.png" alt="">
+                                        <span>表带</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/shenhuozoubian.png" alt="">
+                                        <span>生活周边</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/hezizhuanshu.png" alt="">
+                                        <span>盒子专属配件</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/cukongbi.png" alt="">
+                                        <span>触控笔/取卡针</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-btn">
+                                    <a href="" target="_blank">查看全部</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category-item">
+                        <div class="category-item-bg">
+                            <div class="category-info">
+                                <div class="category-info-detail">
+                                    <h1><a href="https://www.vmall.com/list-36" target="_blank">增值服务&其他</a></h1>
+                                    <a href="" target="_blank">服务器</a>
+                                    <a href="" target="_blank">AI计算平台</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-panels category-panels-1">
+                            <ul class="lin-list">
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/fuwuqi.png" alt="">
+                                        <span>服务器</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/AI计算平台.png" alt="">
+                                        <span>AI计算平台</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-item">
+                                    <a href="" target="_blank">
+                                        <img src="./images/liebiao/zengzhika.png" alt="">
+                                        <span>增值卡</span>
+                                    </a>
+                                </li>
+                                <li class="lin-list-btn">
+                                        <a href="" target="_blank">查看全部</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function(){
+            var $panels = $(".category-panels");
+            //判断鼠标是否进入二级菜单
+            var mouseInPanels = false;
+            //用于存储鼠标移动过程中,开始位置和结束位置的数组
+            var mouseTrach = [];
+            var activeRow,  //选中的一级菜单
+                activeMenu, //对应的右侧二级菜单
+                timer;      //延时器
+        
+            $panels.bind("mouseenter",function() {
+                    mouseInPanels = true;
+                }).bind("mouseleave",function() {
+                    mouseInPanels = false;
+                });
+            
+            var moveHandler = function(e) {
+                mouseTrach.push({
+                    x: e.pageX,
+                    y: e.pageY
+                });
+                if (mouseTrach.length > 2) {
+                    mouseTrach.shift();
+                }
+            };
+            $('.category-item').each(function(){
+                $(this).find('.category-panels').addClass('none');
+            })
+            $('.category-list').bind('mouseenter',function(){
+                $(document).bind("mousemove", moveHandler);
+            }).bind('mouseleave',function(){
+                if (activeRow) {
+                    activeRow.removeClass("active");
+                    activeRow.parent().removeClass("active");
+                    activeRow = null;
+                }
+                if (activeMenu) {
+                    activeMenu.addClass("none");
+                    activeMenu = null;
+                }
+                $(document).unbind("mousemove", moveHandler);
+            });
+            //鼠标进入每个li
+            $('.category-item').bind('mouseenter',function(e){
+                if (!activeRow) {
+                    activeRow = $(this).addClass("active");
+                    $(this).parent().addClass("active");
+                    activeMenu = $(this).find('.category-panels');
+                    activeMenu.removeClass("none");
+                }
+                if (timer) {
+                    clearTimeout(timer);
+                }
+                //当前鼠标位置坐标
+                var curMouse = mouseTrach[mouseTrach.length - 1];
+                //前面鼠标位置坐标
+                var prevMouse = mouseTrach[mouseTrach.length - 2];
+                var delay = needDelay($('.category-list'), curMouse, prevMouse);
+                if (delay) {
+                    var $this = $(this);
+                    timer = setTimeout(function() {
+                        if (activeRow&&activeRow.hasClass('active')) {
+                            activeRow.removeClass("active");
+                            activeRow.parent().removeClass("active");
+                        }
+                        if (activeMenu) {
+                            activeMenu.addClass("none");
+                        }
+                        activeRow = $this;
+                        activeMenu = $this.find('.category-panels');
+                        if (mouseInPanels) {
+                            activeRow.addClass("active");
+                            activeRow.parent().addClass("active");
+                            activeMenu.removeClass("none");
+                        } else {
+                            activeRow.removeClass("active");
+                            activeRow.parent().removeClass("active");
+                            activeMenu.addClass("none");
+                        }
+                    },500);
+                } else {
+                    var prevActiveRow = activeRow;
+                    var prevActiveMenu = activeMenu;
+                    activeRow =$(this);
+                    activeMenu = $(this).find('.category-panels');
+                    prevActiveRow.removeClass("active");
+                    prevActiveRow.parent().removeClass("active");
+                    prevActiveMenu.addClass("none");
+                    activeRow.addClass("active");
+                    activeRow.parent().addClass("active");
+                    activeMenu.removeClass("none");
+                }
+            });
+        })();
+
+        function vector(a, b) {
+            return {
+                x: b.x - a.x,
+                y: b.y - a.y
+            }
+        }
+
+        function vectorPro(v1, v2) {
+            return v1.x * v2.y - v1.y * v2.x;
+        }
+
+        /**
+         *功能:判断两个值是否同正负
+        *入参:两个number类型的值
+        *出参:布尔值,同正负返回true,反之false
+        */ 
+        function sameSign(a, b) {
+            return (a ^ b) >= 0;
+        }
+
+        /**
+         *功能:判断p是否在三角形abc内
+        *入参:p, a, b, c;p是需要判断的点，a,b,c是三角形的三个点，如果p在三角形内部，那么pa,pb,pc两个向量之间的差乘应该符号相同。（同正负）
+        *出参:布尔值。如果p在a,b,c构成的三角形内,返回true,反之false
+        */
+
+        function isPoint(p, a, b, c) {
+            var pa = vector(p, a);
+            var pb = vector(p, b);
+            var pc = vector(p, c);
+
+            var t1 = vectorPro(pa, pb);
+            var t2 = vectorPro(pb, pc);
+            var t3 = vectorPro(pc, pa);
+
+            return sameSign(t1, t2) && sameSign(t2, t3);
+        }
+
+        /**
+         *功能:判断是正常切换一级菜单，还是需要延时
+        *入参:鼠标滑入的DOM元素
+        *出参:布尔值。需要延时返回true,正常切换一级菜单返回false
+        */ 
+        function needDelay(ele, curMouse, prevMouse) {
+            if (!curMouse || !prevMouse) {
+                return
+            }
+            var offset = ele.offset();
+            var topleft = {
+                x: offset.left+240,
+                y: offset.top
+            };
+            var leftbottom = {
+                x: offset.left+240,
+                y: offset.top + ele.height()
+            };
+            return isPoint(curMouse, prevMouse, topleft, leftbottom);
+        }
+
+        
+        //定位当前推荐商品
+        function fixCurrent(obj){
+            $(obj).addClass('current');
+        }
+        
+        //离开当前推荐商品
+        function leaveCurrent(obj){
+            $(obj).removeClass('current');
+        }
+        //去重
+        function removeDuplicatedItem(ar) {
+            var ret = [];
+            for (var i = 0, j = ar.length; i < j; i++) {
+                if (ret.indexOf(ar[i]) === -1) {
+                    ret.push(ar[i]);
+                }
+            }
+            return ret;
+        }
+    </script>
+    <!-- 导航 结束 -->
+    <!-- banner轮播图 -->
+    <div class="banner banner-index">
+        <!--ads start-->
+        <div class="ec-slider" id="index_slider">
+            <ul id="index_slider_ul"></ul>
+            <div class="index-slider-middle">
+                <div class="slider-middle-nav">
+                    <span class="curent"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="slider-middle-prev"></div>
+                <div class="slider-middle-next"></div>
+            </div>
+        </div>
+        <div class="mask"><span></span></div>
+        <!-- ads end -->
+    </div>
+    <script>
+        (function slideShow(){
+            var str = ``;
+            $.getJSON("./index.json","",function(res){
+                for(var i=0;i<res.length;i++){
+                    str += `<li class="index-slider-img" style="background:url('${res[i].url}') 50% 0px no-repeat; ; width: 100%; height: 550px; position: absolute;">
+                        <a style="width:100%;height:550px;display:block;" href="${res[i].href}" target="_blank"  ></a>
+                    </li>`;
+                }
+                $('#index_slider_ul').html(str);
+                $(".index-slider-img:first").css("display","block");
+                var img =$('.index-slider-img');
+                var index = 0;
+                //定时器，每一秒执行一次
+                var timer = setInterval(autoPlay,5000);
+                function autoPlay(){
+                    index++;
+                    // console.log(index);
+                    $('.index-slider-img').eq(index).fadeIn().siblings().fadeOut();
+                    $(".slider-middle-nav > span").eq(index).addClass('curent').siblings().removeClass('curent');
+                    //判断下标是否越界
+                    if(index == img.length - 1){
+                        index = -1;
+                    }
+                }
+                $(".slider-middle-nav > span").mouseover(function(){
+                    //鼠标悬浮
+                    //轮播图不可以在走动，清除定时器
+                    clearInterval(timer);
+                    //获取当前所在的索引
+                    index = $(this).index() -1;
+                    autoPlay();
+                }).mouseout(function(){
+                    timer = setInterval(autoPlay,5000);
+                })
+                $(".slider-middle-prev").mouseover(function(){
+                    clearInterval(timer);
+                }).mouseout(function(){
+                    timer = setInterval(autoPlay,5000);
+                }).click(function(){
+                    if(index==0){
+                        index=img.length;
+                    }
+                    if(index == -2){
+                        index =  7;
+                    }
+                    index = index -2;
+                    console.log("index:"+index);
+                    autoPlay();
+                })
+                $(".slider-middle-next").mouseover(function(){
+                    clearInterval(timer);
+                }).mouseout(function(){
+                    timer = setInterval(autoPlay,5000);
+                }).click(function(){
+                    // 获取当前鼠标位置下标
+                    console.log(index);
+                    if(index==img.length-1){
+                        index=-1;
+                    }
+                    autoPlay();
+                })
+            });
+        })();
+    </script>
+    <!-- banner轮播图 结束-->
+    <!-- 商品列表 -->
+    <!-- 菜单栏 -->
+    <div class="channel-menu">
+        <div class="layout relative">
+            <div class="h">
+                <div class="channel-menu-main">
+                    <ul class="channel-menu-list">
+                        <li class="fl s1">
+
+                        </li>
+                        <li class="fl s2">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-1" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">企业购特惠</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-2" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">以旧换新</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-3" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">会员领劵</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-4" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">荣耀20</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-5" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">荣耀数码</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <div class="p-img"><img class="img-6" src="./images/nav.png" alt=""></div>
+                                        <p class="p-dec">华为数码</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="fl s3">
+                            <div class="s3-head clearfix">
+                                <div class="s3-head-icon fl">
+                                    <a href="" target="_blank">公告</a>
+                                </div>
+                                <div class=""></div>
+                            </div>
+                            <div class="s3-foot">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="" target="_blank">
+                                            <span><img class="img-7" src="./images/nav.png" alt=""></span>优购码
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank">
+                                            <span><img class="img-8" src="./images/nav.png" alt=""></span>实名认证
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank">
+                                            <span><img class="img-9" src="./images/nav.png" alt=""></span>补够保障
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <!-- 菜单栏 end -->
+    
+    
+    <!-- 商品列表 结束 -->
+</body>
+
+</html>

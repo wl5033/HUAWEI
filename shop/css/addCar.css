@@ -1,0 +1,48 @@
+.xianjia{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    margin-bottom: 10px;
+}
+.yuanjia{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.shen{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: red;    
+}
+.shangpin{
+    color: #3a3a3a;
+    text-align: left;
+    display: inline-block;
+    font-size: 14px;
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+}
+.shangchu{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: #3a3a3a;
+}
+.zonji{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    font-size: 14px;
+}
+.zonjia{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: #cb0c17;
+    font-size: 18px;
+}
+.yixuanze{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    font-style: normal;
+    color: #ccc;    
+}
+.youhui{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: black;
+}
+.shuliang{
+    font-family:  Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;;
+    color: #cb0c17;
+    font-style: normal;
+    font-weight: 600;
+}

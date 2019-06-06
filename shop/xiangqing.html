@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <button id="btn1">商品1</button>
+    <button id="btn2">商品2</button>
+    <button id="btn3">商品3</button>
+    <button id="btn4">商品4</button>
+    <button id="btn5">商品5</button>
+    <button id="btn6">商品6</button>
+    <button id="maycar">我的购物车</button>
+
+
+
+    <script>
+        localStorage.clear();
+        var arr=[
+    {"content":"荣耀V20 麒麟980 魅眼全视屏 4800万AI超清摄影 全网通6GB+128GB 标配版 幻夜黑","money":"2699","myh":"600","id":"11","url":"./images/sp/v20.png"},
+    {"content":"荣耀8X 千元屏霸 高屏占比 2000万AI双摄 全网通 4GB+64GB（魅海蓝）","money":"1199","myh":"200","id":"12","url":"./images/sp/8x.png"},
+    {"content":"HUAWEI nova 4 4800万超广角三摄 自拍极点全面屏 高配 8GB+128GB 全网通版（贝母白）","money":"2499","myh":"300","id":"13","url":"./images/sp/nova4.png"},
+    {"content":"荣耀10 GT游戏加速 AIS手持夜景 AI摄影手机 6GB+64GB 幻影紫 全网通 双卡双待 荣耀10GT","money":"1799","myh":"600","id":"14","url":"./images/sp/honor10.png"},
+    {"content":"HUAWEI nova 4e 3200万立体美颜 AI超广角三摄 4GB+128GB 全网通版（幻夜黑）","money":"1799","myh":"300","id":"15","url":"./images/sp/nova4e.png"},
+    {"content":"荣耀Magic2 魔法全视屏 麒麟980AI芯片 屏内指纹 超广角AI三摄 全网通 6GB+128GB 渐变黑","money":"2699","myh":"300","id":"16","url":"./images/sp/magic2.png"},
+    {"content":"荣耀FlyPods Pro无线耳机 高配版（铃兰白）","money":"899","myh":"100","id":"17","url":"./images/sp/flypods.png"},
+    {"content":"荣耀FlyPods青春版 真无线耳机（铃兰白）","money":"349","myh":"50","id":"18","url":"./images/sp/flyposqc.png"},
+    {"content":"荣耀经典耳机 USB Type-c版（白色）","money":"79","myh":"20","id":"19","url":"./images/sp/typec.png"},
+    {"content":"荣耀车载充电器（supercharge 快充版）（含Type C数据线）","money":"129","myh":"30","id":"20","url":"./images/sp/chezai.png"},
+    {"content":"荣耀存储（白色）","money":"649","myh":"50","id":"21","url":"./images/sp/chucun.png"},
+    {"content":"荣耀MINI照片打印机","money":"599","myh":"100","id":"22","url":"./images/sp/minidy.png"}
+]
+        //本地存储存储购物车商品的形式： [{id,title,price,number},{}]
+    
+    function Car(){};
+    Car.prototype.getcar=function(){
+        // console.log(111)
+        return  JSON.parse( localStorage.getItem('carlist')) || [];
+        // console.log(111)
+        //本土存在数据直接返回数据没有创建一个空数组
+    };
+    Car.prototype.hasgood=function(id){
+        var carlist=this.getcar();
+        for(var i=0;i<carlist.length;i++){
+            // console.log(carlist[1].id,id)
+            if(carlist[i].id==id){
+                // carlist[i].num+=1;
+                return true;
+            }
+        }
+        return false;
+    };
+    Car.prototype.addCar=function(good){
+        //添加购物车，先判断购物车李有没有东西；
+       
+        var carlist=this.getcar();
+        //再判断是否存在相同产品；
+        // console.log(carlist[0])
+        if(this.hasgood(good.id)){
+           for(var i=0;i<carlist.length;i++){
+               
+            if(carlist[i].id == good.id){
+                carlist[i].num+=1;
+            }          
+           }
+            //有的话数量+1即可；
+        }else{
+            
+            //没有的话直接push进入本地存储数组；
+            
+            carlist.push(good);
+            
+        }
+        //将数组写入本地存储（更新！！！）
+        localStorage.setItem("carlist",JSON.stringify(carlist));
+    };
+
+    var car=new Car;
+
+    $("#btn1").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[0].content,
+            id:arr[0].id,
+            num:1,
+            money:arr[0].money,
+            myh:arr[0].myh,
+            url:arr[0].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+    });
+    $("#btn2").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[1].content,
+            id:arr[1].id,
+            num:1,
+            money:arr[1].money,
+            myh:arr[1].myh,
+            url:arr[1].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+       
+    });
+    $("#btn3").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[2   ].content,
+            id:arr[2].id,
+            num:1,
+            money:arr[2].money,
+            myh:arr[2].myh,
+            url:arr[2].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+       
+    });
+    $("#btn4").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[3].content,
+            id:arr[3].id,
+            num:1,
+            money:arr[3].money,
+            myh:arr[3].myh,
+            url:arr[3].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+       
+    });
+    $("#btn5").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[4].content,
+            id:arr[4].id,
+            num:1,
+            money:arr[4].money,
+            myh:arr[4].myh,
+            url:arr[4].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+       
+    });
+    $("#btn6").click(function(){
+        // location.href="./shopCar.html"
+        // console.log(localStorage.getItem("car"));
+        var good={
+            content:arr[5].content,
+            id:arr[5].id,
+            num:1,
+            money:arr[5].money,
+            myh:arr[5].myh,
+            url:arr[5].url
+
+        }
+        // console.log(good)
+        car.addCar(good);
+        console.log(localStorage.getItem("carlist"))
+       
+    });
+    
+    $("#maycar").click(function(){
+        location.href="./shopCar.html"
+    })
+
+
+    </script>
+</body>
+</html>

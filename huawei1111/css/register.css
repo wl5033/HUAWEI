@@ -1,0 +1,518 @@
+
+
+.all{
+    width: 100%;
+    min-width: 960px;
+}
+/* 头部 start */
+.header{
+    background: #333333;
+    height: 67px;
+}
+.header-ctr{
+    width: 960px;
+    margin: 0 auto;
+}
+.header-ctr img{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.gang{
+    font-size: 18px;
+    margin-top: -5px;
+    /* float: left; */
+    position: relative;
+    top: -9px;
+    color: #cccccc;
+}
+.header-ctr b{
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 18px;
+    position: relative;
+    top: -8px;
+}
+/* 头部 end */
+
+/* 颈部 start */
+.state{
+    width: 100%;
+    height: 782px;
+    background: #f2f2f2;
+}
+
+.retive{
+    height: 30px;
+}
+.phone{
+   height: 35px;
+   width: 960px;
+   margin: 0 auto;
+}
+.tab-phone{
+    display: block;
+    background: #b40707;
+    width: 146px;
+    height: 35px;
+    margin-right: 12px;
+    float: left;
+}
+.tab-phone .iconfont{
+    color: #fff;
+    font-size: 22px;
+    padding-top: 10px;
+    margin: 0 10px 0 0;
+    line-height: 35px;
+    vertical-align: middle;
+}
+.tab-phone a{
+    color: #fff;
+    font-size: 16px;
+    margin: 0px 20px 0 20px;
+}
+.tab-mail{
+    display: block;
+    background: #cccccc;
+    width: 146px;
+    height: 35px;
+    float: left;
+}
+.tab-mail a{
+    font-size: 16px;
+    color: #ffffff;
+}
+.tab-mail .iconfont{
+    font-size: 22px;
+    margin: 10px 0 0 0;
+    vertical-align: middle;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.tab-login{
+    float: right;
+    font-size: 14px;
+}
+.tab-login a{
+    color: #007dff;
+    font-size: 14px;
+    line-height: 35px;
+    padding-left: 4px;
+}
+/* 颈部 end */
+
+/* 身体 start */
+.state-ctr{
+    width: 960px;
+    height: 598px;
+    background: #fff;
+    margin-top: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.kernel{
+    width: 420px;
+    height: 538px;
+    max-height: 586px;
+    position: absolute;
+    left:270px;
+    top:40px;
+}
+.kernel-left{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px 0 0 20px;
+    box-sizing: border-box;
+    line-height: 43px;
+    /* display: inline-block; */
+    float: left;
+    padding: 0 16px;
+    text-align: justify;
+    text-align-last: justify;
+    font-size: 14px;
+
+}
+.kernel-right{
+    /* display: inline-block; */
+    float: left;
+}
+
+.kernel-kernel{
+    width: 291px;
+    height: 41px;
+    outline: none;
+    background: #f7f7f7;
+    border-radius: 0 20px 20px 0;
+    border: none;
+
+}
+.kernel-kernel{
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+.kernel-content{
+    border: 1px solid #d9d9d9;
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+}
+
+/* 手机号start */
+.lerror{
+    border: 1px solid #d9d9d9;
+    height: 43px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.mima{
+    border: 1px solid #d9d9d9;
+    height: 43px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.queren{
+    border: 1px solid #d9d9d9;
+    height: 43px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.mobile{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    /* border: 1px solid #d9d9d9; */
+    border-radius: 20px 0 0 20px;
+    box-sizing: border-box;
+    line-height: 43px;
+    display: inline-block;
+    padding: 0 16px;
+    float: left;
+    
+}
+.mobile select{
+    border: none;
+    background: #f7f7f7;
+    font-size: 14px;
+    text-align: justify;
+    text-align-last: justify;
+    outline: none;
+}
+.mobile-left{
+    float: left;
+    
+
+}
+.mobile-left input{
+    width: 291px;
+    height: 43px;
+    border: none;
+    border-left: solid 1px #d9d9d9;
+    /* border: 1px solid #d9d9d9; */
+    /* border-left: none; */
+    border-radius: 0 20px 20px 0;
+    background: #f7f7f7;
+    padding-left: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+#hint{
+    margin-left: 20px;
+}
+/* 手机号end */
+
+
+.verify input{
+    width: 416px;
+    height: 42px;
+    border-radius: 22px;
+    border: none;
+    background: #f7f7f7;
+    padding: 0 46px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.security{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    margin-top: 10px;
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 43px;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    float: left;
+}
+.security-ctn{
+    width: 291px;
+    height: 43px;
+    border: 1px solid #d9d9d9;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background: #f7f7f7;
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+   
+}
+.security-ctn input{
+    outline: none;
+    border: none;
+    padding-left: 16px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
+.security-btn{
+    border: none;
+    margin-top: 11px;
+    background: #f7f7f7;
+    border: 0;
+    color: #007dff;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+.password{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    
+    /* margin-top: 30px; */
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 43px;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    float: left;
+}
+.password-ctn{
+    width: 291px;
+    height: 43px;
+    
+    border-left: solid 1px #d9d9d9;
+    border-radius: 0 20px 20px 0;
+    background: #f7f7f7;
+    float: left;
+    /* margin-top: 30px; */
+    box-sizing: border-box;
+   position: relative;
+}
+
+.password-ctn input{
+    outline: none;
+    border: none;
+    padding-left: 16px;
+    margin-top: 14px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
+#userpwd{
+    margin-left: 20px;
+}
+.reminder{
+    width: 283px;
+    height: 170px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(158,158,158,0.6);
+    position: relative;
+    position: absolute;
+    left: -55px;
+    top: -180px;
+    box-sizing: border-box;
+    padding: 20px 31px 0 31px;
+    display: none;
+}
+.not_spa1{
+    padding-top: 10px;
+}
+.symbol{
+    padding-top: 20px;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #ccc;
+}
+.reminder .iconfont{
+    font-size: 12px;
+}
+.reminder img{
+    position: absolute;
+    left: 141px;
+    top: 170px;
+}
+.reminder p{
+    color: #7f7f7f;
+    font-size: 12px;
+}
+
+.repassword{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    border-right: 1px solid #d9d9d9;
+    /* margin-top: 10px; */
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 43px;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    float: left;
+}
+.repassword-ctn{
+    width: 291px;
+    height: 43px;
+    /* border: 1px solid #d9d9d9; */
+    /* border-left: none; */
+    border-radius: 0 20px 20px 0;
+    background: #f7f7f7;
+    float: left;
+    /* margin-top: 10px; */
+    box-sizing: border-box;
+   
+}
+.repassword-ctn input{
+    outline: none;
+    border: none;
+    padding-left: 16px;
+    margin-top: 14px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
+
+#inro_password{
+    margin-left: 20px;
+}
+
+.birthday{
+    width: 123px;
+    height: 43px;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    margin-top: 30px;
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 43px;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    float: left;
+}
+.birthday-ctn{
+    width: 291px;
+    height: 43px;
+    border: 1px solid #d9d9d9;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background: #f7f7f7;
+    float: left;
+    margin-top: 30px;
+    box-sizing: border-box;
+   
+}
+.birthday-ctn input{
+    outline: none;
+    border: none;
+
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
+
+#year{
+    float: left;
+    outline: none;
+    padding-left: 16px;
+    font-size: 14px;
+    margin-top: 14px;
+    background: #f7f7f7;
+    border: none;
+}
+#month{
+    float: left;
+    outline: none;
+    padding-left: 16px;
+    background: #f7f7f7;
+    margin-top: 14px;
+    font-size: 14px;
+    border: none;
+}
+#day{
+    float: left;
+    outline: none;
+    padding-left: 16px;
+    margin-top: 14px;
+    font-size: 14px;
+    background: #f7f7f7;
+    border: none;
+}
+
+.register{
+    width: 200px;
+    height: 40px;
+    background: #b40707;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 30px 0 0 110px;
+}
+
+/* 身体 end */
+
+/* 底部start */
+.space{
+    height: 40px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #cccccc;
+    width: 960px;
+    margin: 0 auto;
+    
+    /*
+    box-sizing: border-box; */
+}
+.boxdow{
+    padding-top: 30px;
+    font-size: 12px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.boxdow a{
+    color: #999999;
+    padding: 0 10px;
+    border-left: 1px solid #ccc;
+}
+.boxdow a:first-child{
+    border: none;
+}
+/* .privacy{
+    padding: 0 10px;
+} */
+.footer{
+    color: #999999;
+    padding-top: 8px;
+    text-align: center;
+}
+.zhanwei{
+    height: 30px;
+    background: #f2f2f2;
+}
+/* 底部end */

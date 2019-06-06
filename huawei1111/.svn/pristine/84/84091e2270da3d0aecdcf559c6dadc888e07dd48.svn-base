@@ -1,0 +1,215 @@
+.container{
+    width: 100%;
+    background:#f9f9f9;
+    min-width: 1200px;
+}
+
+/* 品质 start */
+.slogan{
+    min-height: 82px;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 22px 0 20px;
+    box-sizing: border-box;
+    line-height: 32px;
+}
+.slogan li{
+    float: left;
+    height: 40px;
+    padding-right: 120px;
+}
+.slogan li:last-child{
+    padding: 0;
+}
+.slogan li a{
+    color: #3a3a3a;
+    font-size: 18px;
+}
+.slogan li a .iconfont{
+    display: inline-block;
+    font-size: 40px;
+    color: #cb242b;
+    font-weight: normal;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+/* 品质 end */
+
+/* 服务 start */
+.service{
+    padding: 23px 0 24px;
+    margin: 0 auto;
+    height: 221px;
+    box-sizing: border-box; 
+    width: 1200px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.service dl{
+    float: left;
+    margin-right: 70px;
+}
+.service-left{
+    width: 920px;
+    height: 155px;
+    padding-top: 5px;
+    display: inline-block;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+}
+.service-left dl dt a{
+    padding:0 0 7px;
+    color: #333333;
+
+}
+.service-left dl dd{
+    padding-top: 5px;
+}
+.service-left dl dd a{
+    font-size: 12px;
+    color: #777777;
+    width: 153px;
+
+}
+.service-left dl dd a:hover{
+    color: #cb242b;
+}
+.service-contre{
+    width: 150px;
+    display: inline-block;
+
+}
+.blogroll{  
+    position: absolute;
+    left:720px;
+}
+.btn1{
+    cursor: pointer;
+}
+.btn2{
+    cursor: pointer;
+}
+.Android{
+    width: 153px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.ali{
+    width: 1980px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+.ali dl{
+    float: left;
+    width: 150px;
+}
+.service-right{
+    width: 269px;
+    display: inline-block;
+    position: relative;
+}
+.service-right .title{
+    font-size: 24px;
+    text-align: center;
+    font-weight:bold;
+    color: #575757;
+}
+.hint{
+    font-size: 14px;
+    color: #575757;
+    text-align: center;
+}
+.service-right span{
+    text-align: center;
+}
+.service-right p .iconfont{
+    font-size: 18px;
+    color: #303030;
+}
+.service-right .customer{
+    width: 170px;
+    height: 34px;
+    display: block;
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 17px;
+    line-height: 34px;
+    margin: 0 auto;
+}
+.service-right .attention{
+    text-align: center;
+}
+.qrcode{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 89px;
+    bottom:-115px; 
+    display: none;
+    box-shadow: 0 1px 5px rgba(158,158,158,0.6);
+}
+/* 服务 end */
+
+/* 底部 start */
+.footer{
+    height: 83px;
+    width: 1200px;  
+    margin: 0 auto;
+    padding: 22px 0 22px;
+    box-sizing: border-box;
+}
+.footer-left{
+    display: inline-block;
+    height: 20px;
+}
+.footer-left img{
+    width: 82px;
+    height: 20px;
+    padding: 3px 16px 0 0;
+    position: relative;
+    top: -16px;
+}
+.footer-conter {
+    display: inline-block;
+}
+.footer-conter li a{
+    float: left;
+    font-size: 12px;
+    color: #777777;
+    padding-right: 6px;
+    margin-right: 6px;
+    border-right:1px solid #d3d3d3;
+ 
+}
+.footer-conter li a.a{
+    border: none;
+}
+.footer-conter a{
+    color: #a4a4a4;
+    font-size: 12px;
+
+}
+.footer-conter a:hover{
+    color: #cb242b;
+}
+.footer-conter .b{
+    border-left: 1px solid #a4a4a4;
+    padding-left: 4px;
+    border-right: 1px solid #a4a4a4;
+    padding-right: 4px;
+}
+.footer-conter span{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.footer-conter li a:hover{
+    color: #cb242b;
+}
+.footer-conter a .license{
+    width: 70px;
+    height: 24px;
+}
+/* 底部 end */

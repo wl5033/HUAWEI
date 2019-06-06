@@ -1,0 +1,10 @@
+body,html,h1,h2,h3,h4,h5,h6,p,ul,li,ol,li,dl,dt,dd,form,fieldset
+,legend,input,textarea,select,img{margin:0;padding:0;}
+a{text-decoration:none; color:#333;}
+ul li,ol li{list-style:none;}
+fieldset,img{border:none; display:block}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+body{font-family:"微软雅黑"; font-size:12px;}
+a:hover{}
+.clearfix:after{content:"."; display:block; height:0; font-size:0; overflow:hidden;
+visibility:hidden; clear:both;}
